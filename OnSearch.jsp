@@ -28,7 +28,7 @@
 <body>
 	<sql:setDataSource var="snapshot" driver="org.postgresql.Driver"
 		url="jdbc:postgresql://testnear.cqvriimggiec.ap-south-1.rds.amazonaws.com:5432/AQIDetail"
-		user="abhi" password="12345678" />
+		user="ananya" password="12345678" />
 	<sql:query dataSource="${snapshot}" var="result">
             select * from statemaster;
           </sql:query>
